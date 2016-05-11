@@ -1,4 +1,4 @@
-const Wit = require('../node-wit').Wit
+const Wit = require('node-wit').Wit
 
 module.exports = function (witToken) {
   return new Witbot(witToken)
